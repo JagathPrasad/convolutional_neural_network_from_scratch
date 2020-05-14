@@ -12,6 +12,7 @@ namespace ConvolutionalNeuralNetwork
         {
 
             NeuralNetwork neural = new NeuralNetwork();
+            neural.Train();
             //neural.Filter(1,3,3);
             //
         }
